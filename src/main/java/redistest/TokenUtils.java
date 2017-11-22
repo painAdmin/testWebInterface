@@ -22,7 +22,7 @@ import sun.misc.BASE64Encoder;
  * @author pain
  *
  */
-public class RedisClient {
+public class TokenUtils {
 	 private static final String secret="4828248324_76649265664_5426464926";
 	public static void main(String[] args) throws Exception {
 		String jwt=createJWT("1","htmcc","test",System.currentTimeMillis());
